@@ -6,7 +6,7 @@ const https = require("https");
 
 const apiId = 28596369;
 const apiHash = "f50cfe3b10da015b2c2aa0ad31414a55";
-const sessionKey = "1BQANOTEuMTA4LjU2LjE2MgG7AeoJR4dF/YxMs6FGtjxXltylOrD2k7QM/sO2Fc9uQ1LSfhp1bWG4skrcq/lVfkMhtKQf4RwcqxdvDXCQObc/v3VcsIjNeH2ZpRs8qlkyWre3zZu1HAQ+9DiAGxgWYm7rS2HFyX2WjYGTXSnUpGTsNgqFkDplh32egSz0Pg1h+TtxC7vhgZBvXN1+W0o+rNNa6nedvksHNzNJcwmUv1ykMw1w502jyBtonfLIOw8cJwGO2weRxL1IH+2GPuF+5iwrZquTm2Ji8rAywkpsQCaIKEc/jZbzW1mhOzj6xhICdLcrFfB3/8XBzsJ1tW8mZvrw6/mZinRYeyLdIORQ8tP3CA=="
+const sessionKey = "1BQANOTEuMTA4LjU2LjE2MgG7W5rhdB65yGZjmV8o7Hwymg2i8AERIK1kki2rGF0PJQrCXpogH9FPs49SQrz1RePL807DEBgOvsWyVc410qX16naqPuo0kzasETDS32zA6SL5292HeAPOTXbbbuZ2y/ixbuuFc4QUAJQW8ZrITy2SmbdP+4DoWdqTIyI31yIe588y966YK0T6Dcw43ZdS+ZkeTqcExE85CkF8oGE7ee4B6aLComOfe2vouEM1Pq72KEJ2xbluajp7Z0h54+s9mm/sQ3TDSPAvFCZxVkIMqN+IRQx9w1oh0kr01ABIw4xTlS3N51JVaAQi8UselmAkNy+HxYAAklOT91Sajf6budTzyw=="
 const stringSession = new StringSession(sessionKey);
 
 const apiUrl = "https://colorwiz.cyou/mana/receive_red_packet";
