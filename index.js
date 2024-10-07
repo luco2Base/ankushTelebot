@@ -83,7 +83,7 @@ const startBot = async () => {
                 }
             }
 
-            await delay(950); // Adjust the delay as needed
+            await delay(1000); // Adjust the delay as needed
 
         } catch (err) {
             console.error("Error fetching messages: ", err);
