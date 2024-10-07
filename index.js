@@ -83,7 +83,7 @@ const startBot = async () => {
                 }
             }
 
-            await delay(900); // Adjust the delay as needed
+            await delay(950); // Adjust the delay as needed
 
         } catch (err) {
             console.error("Error fetching messages: ", err);
@@ -115,7 +115,7 @@ const keepAppAwake = () => {
     }).on("error", (err) => {
       console.error("Error in self-ping: ", err.message);
     });
-  }, 10 * 60 * 1000); // Ping every 10 minutes
+  }, 20 * 60 * 1000); // Ping every 20 minutes
 };
 
 const init = async () => {
